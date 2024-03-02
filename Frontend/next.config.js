@@ -7,8 +7,8 @@ const nextConfig = {
     return config;
   },
   images: {
-    domains: ['nft-market-online.infura-ipfs.io'],
-    formats: ["image/webp"],
+    domains: ['yoursubdomain.infura-ipfs.io'],
+    formats: ['image/webp'],
   },
 };
 

@@ -48,7 +48,7 @@ export const NFTProvider = ({ children }) => {
   const [saleCancelled, setSaleCancelled] = useState([]);
   const [creatingNft, setCreatingNft] = useState(false);
   const [signature, setSignature] = useState(null);
-  const [nftCurrency, setNftCurrency] = useState('');
+  const [nftCurrency, setNftCurrency] = useState('ETH');
   const [walletConnected, setWalletConnected] = useState(false);
   const [userPoint, setUserPoint] = useState(0);
   const CONF = config;
@@ -152,14 +152,6 @@ export const NFTProvider = ({ children }) => {
       }
     }
   };
-
-  useEffect(() => {
-    if (currentChainId === 3636) {
-      setNftCurrency('BTC');
-    } else {
-      setNftCurrency('ETH');
-    }
-  });
 
   //FETCH NFTS
   const fetchNFTs = async (currentPage) => {
@@ -416,7 +408,7 @@ export const NFTProvider = ({ children }) => {
     try {
       const added = await client.add({ content: file });
 
-      const url = `https://nft-market-online.infura-ipfs.io/ipfs/${added.path}`;
+      const url = `yoursubdomain.infura-ipfs.io/ipfs/${added.path}`;
 
       return url;
     } catch (error) {
@@ -435,7 +427,7 @@ export const NFTProvider = ({ children }) => {
     try {
       const added = await client.add(data);
 
-      const url = `https://nft-market-online.infura-ipfs.io/ipfs/${added.path}`;
+      const url = `yoursubdomain.infura-ipfs.io/ipfs/${added.path}`;
 
       await createSale(url, price);
 
