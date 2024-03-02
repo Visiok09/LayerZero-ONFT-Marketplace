@@ -5,9 +5,10 @@ import { NFTProvider } from '../context/NFTContext';
 import { Navbar, Footer } from '../components';
 import '../styles/globals.css';
 import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
-import { client } from '../graphql/apollo';
+import { apolloClient } from '../graphql/apollo';
+
 const MyApp = ({ Component, pageProps }) => (
-  <ApolloProvider client={client}>
+  <ApolloProvider client={apolloClient}>
     <NFTProvider>
       <ThemeProvider attribute="class">
         <div className="dark:bg-nft-dark bg-white min-h-screen">
