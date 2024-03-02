@@ -5,7 +5,7 @@ import { NFTProvider } from '../context/NFTContext';
 import { Navbar, Footer } from '../components';
 import '../styles/globals.css';
 import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
-
+import { client } from '../graphql/apollo';
 const MyApp = ({ Component, pageProps }) => (
   <ApolloProvider client={client}>
     <NFTProvider>
