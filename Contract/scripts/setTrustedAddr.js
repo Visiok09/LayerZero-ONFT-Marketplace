@@ -27,12 +27,6 @@ async function main() {
 
   //SET TRUSTED REMOTE ADDRESS
 
-  //Botanix
-  // const txB = await CONTACT_OPTIMISM.setTrustedRemoteAddress(OPTIMISM, contractAddressOp, {
-  //     // gasLimit: 10000000,
-  //     // gasPrice: gasPriceValue,
-  // })
-  // await txM.wait(1)
 
   //Arbitrum
   //   const txA = await CONTRACT_ARBITRUM.setTrustedRemoteAddress(
