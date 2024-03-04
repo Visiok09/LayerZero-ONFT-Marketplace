@@ -2,7 +2,7 @@ This repository provides example of deploying a contract using Hardhat.
 ### Prerequisites
 
 Node.js installed on your machine
-Private key added to a .env file (see instructions below)
+
 
 ### Clone this repository:
 
