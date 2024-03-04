@@ -27,7 +27,10 @@ async function main() {
 
   //SET TRUSTED REMOTE ADDRESS
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3b031a6 (updated)
   //Arbitrum
   //   const txA = await CONTRACT_ARBITRUM.setTrustedRemoteAddress(
   //     ARBITRUM,
