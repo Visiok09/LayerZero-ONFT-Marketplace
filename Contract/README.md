@@ -1,4 +1,4 @@
-This repository provides a simple example of deploying a contract using Hardhat. Please note that this is for educational purposes only, and it's not recommended to use real funds with the provided private key.
+This repository provides example of deploying a contract using Hardhat. Please note that this is for educational purposes only, and it's not recommended to use real funds with the provided private key.
 
 ### Prerequisites
 
