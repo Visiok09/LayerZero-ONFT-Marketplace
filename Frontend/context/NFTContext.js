@@ -563,11 +563,10 @@ export const NFTProvider = ({ children }) => {
       appPriceInEther.toString()
     );
 
-    let adapter = ethers.utils.solidityPack(['uint16', 'uint'], [1, 350000]);
     const transaction = await contract.sendOnft(
       chainToBridge,
       tokenid,
-      adapter,
+      EstimateAdapter,
       {
         value: listingPriceInWei.add(lzCommissionInWei).add(addPriceInWei),
       }
