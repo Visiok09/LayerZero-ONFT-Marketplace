@@ -6,7 +6,6 @@ import axios from 'axios';
 import { create as ipfsHttpClient } from 'ipfs-http-client';
 import * as zksync from 'zksync-web3';
 import { Wallet, Provider } from 'zksync-web3';
-//import { API, projectIdSec, projectSecretS } from '../secrets';
 
 import config from './config.json';
 
