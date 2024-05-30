@@ -1,4 +1,4 @@
-Welcome to the BettaBridge is the cross-network NFT Marketplace powered by LayerZero.
+Welcome to the BettaBridge repo is the cross-network NFT Marketplace powered by LayerZero.
 
 ### Link to DApp: https://bettabridge.online/
 
