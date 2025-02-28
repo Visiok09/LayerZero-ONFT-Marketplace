@@ -1,6 +1,6 @@
 Welcome to the BettaBridge repo is the cross-network NFT Marketplace powered by LayerZero protocol.
 
-### Link to DApp: [Link](https://bettabridge.alphamint.online/)
+### Link to DApp: [Link](https://bettabridge.alphamint.space/)
 
 ### Clone this repository:
 
